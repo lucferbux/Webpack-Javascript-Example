@@ -30,9 +30,9 @@ npm install
 
 You can start to develop your project, use the ```index.html```, ```index.js```, and ```styles.scss``` files to start the development process. These files, alongside all the imports will be later bundled and compiled onto a minimize version in the ```./dist/*``` folder.
 
-3. Start dev server
+3. Livewatch
 
-To start a new dev server with auto-reloading just run ```npm run start:dev``` to start a new webserver.
+To start livewatch just run ```npm run start:dev```.
 
 ## Deployment
 
@@ -46,10 +46,4 @@ To create a development build:
 
 ```
 npm run build-dev
-```
-
-## Running
-
-```
-node dist/bundle.js
 ```
