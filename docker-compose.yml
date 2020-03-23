@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: nginx
+    restart: always
+    image: nginx
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - mynet
+
+networks:
+  mynet:
+
