@@ -29,6 +29,7 @@ npm install
 2. Develop your project
 
 You can start to develop your project, use the ```index.html```, ```index.js```, and ```styles.scss``` files to start the development process. These files, alongside all the imports will be later bundled and compiled onto a minimize version in the ```./dist/*``` folder.
+Changing the ```src/images/logo``` will change the favicon of the page.
 
 3. Livewatch
 
