@@ -1,6 +1,9 @@
 # Webpack with Babel
 
-In this template we will check an ECMAScript 6 (Javascript 6) app with retrocompatibility to older versions thanks to Babel.
+> ECMAScript 6 project with Webpack and Babel support for bundling and compiling to backward compatibility
+
+![Header](meta/Header.png)
+
 
 ## Requirements
 
@@ -26,14 +29,15 @@ The Goal of this application is to bundle all the files in development process t
 npm install
 ```
 
-2. Develop your project
+2. Change the **src/images/icon.png** to modify the favicon, see more [here](https://github.com/jantimon/favicons-webpack-plugin)
 
-You can start to develop your project, use the ```index.html```, ```index.js```, and ```styles.scss``` files to start the development process. These files, alongside all the imports will be later bundled and compiled onto a minimize version in the ```./dist/*``` folder.
-Changing the ```src/images/logo``` will change the favicon of the page.
+3. Start modifying the html, css and javascript files located in **src** folder
 
-3. Livewatch
+5. To start livewatch just run  the following command
 
-To start livewatch just run ```npm run start:dev```.
+```
+npm run start:dev
+```
 
 ## Deployment
 
